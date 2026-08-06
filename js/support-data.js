@@ -5,7 +5,7 @@ window.SUPPORT_CHANNELS = [
     title: "Fanpage Facebook",
     description:
       "Nhắn tin trực tiếp qua Messenger. Phù hợp khi cần hỗ trợ.",
-    url: "https://www.facebook.com/memanxem",
+    url: "https://www.facebook.com/ttsstudio247",
     cta: "Mở Fanpage",
     icon: "📘",
   },
