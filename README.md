@@ -1,8 +1,6 @@
 # TTS Studio — Trang giới thiệu (static)
 
-Web tĩnh HTML/CSS cho [TTS Studio](https://github.com/tuminhbuocdi/TTSMarker). Không cần build.
-
-**Live (GitHub Pages):** bật Pages trong repo → Settings → Pages → Branch `main`, folder `/ (root)`.
+Web tĩnh HTML/CSS, không cần build. Deploy lên Cloudflare Pages, GitHub Pages hoặc Nginx.
 
 ## Assets
 
@@ -11,6 +9,11 @@ Web tĩnh HTML/CSS cho [TTS Studio](https://github.com/tuminhbuocdi/TTSMarker). 
 - `assets/images/dubbing.png` — Tab Lồng Tiếng
 
 Khi cập nhật UI app, chụp lại screenshot và thay file tương ứng.
+
+## Hỗ trợ
+
+- Trang `/support` — danh sách kênh liên hệ (sửa `js/support-data.js` để thêm link mới).
+- App desktop luôn mở `https://tts-marker.vercel.app/support` — không cần cập nhật app khi đổi kênh hỗ trợ.
 
 ## Chạy local
 
