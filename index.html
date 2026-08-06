@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TTS Studio — Lồng tiếng &amp; Tổng hợp giọng chuyên nghiệp</title>
+  <meta name="description" content="Phần mềm TTS Studio: tổng hợp giọng nói, lồng tiếng video batch, credit minh bạch, mua credit trong app." />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="assets/logo.png" width="28" height="28" alt="" />
+        TTS Studio
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="active">Trang chủ</a>
+        <a href="#features">Tính năng</a>
+        <a href="guides/index.html">Hướng dẫn</a>
+        <a href="#download" class="nav-cta">Tải app</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero page-wrap">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="hero-brand">
+            <img
+              class="hero-app-logo"
+              src="assets/logo.png"
+              width="80"
+              height="80"
+              alt="TTS Studio"
+            />
+            <span class="hero-brand-name">TTS Studio</span>
+          </div>
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Desktop app cho creator &amp; studio
+          </div>
+          <h1>
+            <span class="gradient-text">Giọng nói AI</span><br />
+            cho video chuyên nghiệp
+          </h1>
+          <p class="lead">
+            Tổng hợp giọng từ phụ đề, lồng tiếng hàng loạt, báo giá credit rõ ràng
+            và thanh toán QR ngay trong phần mềm — không cần mở trình duyệt.
+          </p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#download">Tải TTS Studio</a>
+            <a class="btn btn-secondary" href="guides/index.html">Xem hướng dẫn</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <strong data-count-to="2" data-count-suffix="+">0+</strong>
+              <span>Module chính: TTS &amp; Dubbing</span>
+            </div>
+            <div class="hero-stat">
+              <strong>SRT · VTT · ASS</strong>
+              <span>Import phụ đề phổ biến</span>
+            </div>
+            <div class="hero-stat">
+              <strong>⚡ Credit</strong>
+              <span>Quote trước khi xử lý</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-glow" aria-hidden="true"></div>
+          <div class="screenshot-frame">
+            <div class="screenshot-dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <img
+              src="assets/images/home.png"
+              alt="Màn hình chào mừng TTS Studio với Chuyển đổi Audio và Lồng Tiếng"
+              width="800"
+              height="450"
+              loading="eager"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-wrap" id="features">
+      <div class="reveal">
+        <span class="section-label">Tính năng</span>
+        <h2 class="section-title">Mọi thứ bạn cần trong một app</h2>
+        <p class="section-lead">
+          Giao diện tối, tập trung workflow: từ phụ đề → audio → ghép video, không rời khỏi TTS Studio.
+        </p>
+      </div>
+
+      <div class="feature-row reveal">
+        <div class="feature-copy">
+          <span class="section-label">Chuyển đổi Audio</span>
+          <h3 class="section-title" style="font-size: 1.65rem;">TTS từ phụ đề, đúng timeline</h3>
+          <p class="section-lead">
+            Chọn giọng, chỉnh tốc độ / cao độ / âm lượng, xuất WAV hoặc MP3. Ghép theo timeline SRT với chế độ overlap hoặc fit slot.
+          </p>
+          <ul class="feature-list">
+            <li>Bảng phụ đề theo thời gian, import SRT / VTT / ASS</li>
+            <li>Nhiều giọng tiếng Việt &amp; đa ngôn ngữ</li>
+            <li>Nghe thử từng dòng trước khi render hàng loạt</li>
+          </ul>
+          <a class="btn btn-secondary" href="guides/tts-synthesis.html" style="margin-top: 1.5rem;">Hướng dẫn TTS</a>
+        </div>
+        <div class="feature-visual">
+          <div class="screenshot-frame">
+            <div class="screenshot-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+            <img
+              src="assets/images/tts-audio.png"
+              alt="Tab Chuyển đổi Audio — chọn giọng, bảng phụ đề và xuất file"
+              width="900"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-row reverse reveal">
+        <div class="feature-copy">
+          <span class="section-label">Lồng Tiếng</span>
+          <h3 class="section-title" style="font-size: 1.65rem;">Ghép audio vào video, batch processing</h3>
+          <p class="section-lead">
+            Gán video + audio từng dòng, báo giá credit theo thời lượng, xử lý nhiều file. Thay thế track gốc hoặc ducking âm thanh nền.
+          </p>
+          <ul class="feature-list">
+            <li>Quote credit từng dòng hoặc cả danh sách</li>
+            <li>Hoàn credit khi job lỗi / hủy (chưa xong)</li>
+            <li>Giữ định dạng video gốc, hậu tố file tùy chỉnh</li>
+          </ul>
+          <a class="btn btn-secondary" href="guides/dubbing.html" style="margin-top: 1.5rem;">Hướng dẫn lồng tiếng</a>
+        </div>
+        <div class="feature-visual">
+          <div class="screenshot-frame">
+            <div class="screenshot-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+            <img
+              src="assets/images/dubbing.png"
+              alt="Tab Lồng Tiếng — danh sách video, credit và QR thanh toán"
+              width="900"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-wrap">
+      <div class="reveal">
+        <span class="section-label">Workflow</span>
+        <h2 class="section-title">Đơn giản, minh bạch</h2>
+      </div>
+      <div class="grid-3" style="margin-top: 2rem;">
+        <article class="card reveal reveal-delay-1">
+          <div class="card-icon">①</div>
+          <h3>Đăng ký thiết bị</h3>
+          <p>Lần đầu mở app nhận mã hội viên và credit khởi tạo. Dùng lại máy không cần đăng ký lại.</p>
+        </article>
+        <article class="card reveal reveal-delay-2">
+          <div class="card-icon">②</div>
+          <h3>Tạo &amp; lồng tiếng</h3>
+          <p>TTS từ phụ đề hoặc gán audio có sẵn, quote credit trước mỗi lần xử lý dubbing.</p>
+        </article>
+        <article class="card reveal reveal-delay-3">
+          <div class="card-icon">③</div>
+          <h3>Mua credit trong app</h3>
+          <p>Chọn gói, quét VietQR, credit cộng vào ví. <a href="guides/credits.html" class="card-link">Chi tiết →</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section page-wrap" id="pricing">
+      <div class="pricing-band reveal">
+        <span class="section-label">Credit</span>
+        <h2 class="section-title">Trả theo sử dụng, không bất ngờ</h2>
+        <p class="section-lead" style="margin-left: auto; margin-right: auto;">
+          Phí lồng tiếng tính theo thời lượng âm thanh/video. Giá gói credit chính xác hiển thị trong app khi mua.
+        </p>
+        <div class="callout">
+          Mỗi lần xử lý được báo giá trước. Job thành công giữ phí; job lỗi hoặc hủy (chưa hoàn thành) được hoàn credit tương ứng.
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section page-wrap" id="download">
+      <div class="reveal">
+        <span class="section-label">Bắt đầu</span>
+        <h2 class="section-title">Sẵn sàng cho dự án tiếp theo?</h2>
+        <p class="section-lead">
+          TTS Studio chạy trên Windows. Tải, cài đặt và làm theo hướng dẫn bắt đầu — chỉ vài phút.
+        </p>
+        <div class="btn-row" style="justify-content: center;">
+          <a class="btn btn-primary" href="guides/getting-started.html">Hướng dẫn cài đặt</a>
+          <a class="btn btn-secondary" href="guides/index.html">Mục lục hướng dẫn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <span>© TTS Studio</span>
+      <div class="footer-links">
+        <a href="guides/index.html">Hướng dẫn</a>
+        <a href="guides/credits.html">Mua credit</a>
+        <a href="#features">Tính năng</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
