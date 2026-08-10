@@ -1,6 +1,15 @@
 (function () {
   "use strict";
 
+  const downloadUrl = window.TTS_STUDIO_DOWNLOAD_URL;
+  if (downloadUrl) {
+    document.querySelectorAll("[data-download-app]").forEach((el) => {
+      el.href = downloadUrl;
+      el.target = "_blank";
+      el.rel = "noopener noreferrer";
+    });
+  }
+
   const header = document.querySelector(".site-header");
   if (header) {
     const onScroll = () => {
